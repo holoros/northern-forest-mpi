@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*_PREV*
+figures/out/
+restricted/
+*.rds
+*.parquet
