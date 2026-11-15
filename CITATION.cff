@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "northern-forest-mpi: replication code for the Northern Forest multi-model evaluation"
+type: software
+license: MIT
+repository-code: "https://github.com/holoros/northern-forest-mpi"
+date-released: 2026-11-15
+authors:
+  - family-names: Premer
+    given-names: M.
+  - family-names: Daigneault
+    given-names: A.
+  - family-names: Hayes
+    given-names: D.
+  - family-names: Hennigar
+    given-names: C.
+  - family-names: Solarik
+    given-names: K.
+  - family-names: Zhao
+    given-names: J.
+  - family-names: Weiskittel
+    given-names: Aaron R.
+    orcid: "https://orcid.org/0000-0003-2534-4478"
+    affiliation: "University of Maine, Center for Research on Sustainable Forests"
