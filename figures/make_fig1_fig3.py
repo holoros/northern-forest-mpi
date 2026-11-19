@@ -19,8 +19,8 @@ os.makedirs(OUT, exist_ok=True)
 # ---------------- Figure 1: scorecard heatmap ----------------
 states = ["ME", "NH", "VT", "MI", "WI", "MN"]
 models = [("fvs", "FVS\ndefault"), ("osm", "OSM"), ("acd141", "AcadianGY\n14.1"), ("cem", "CEM"),
-          ("landis", "LANDIS-II"), ("cbm_gated", "CBM\ngated"), ("cbm_af", "CBM\nAF"),
-          ("fia_curves", "FIA yield\ncurves"), ("E_state", "State\nensemble")]
+          ("landis", "LANDIS-II"), ("cbm_gated", "CBM-CFS3\nFVS curves"), ("cbm_af", "CBM-CFS3\nGompertz\ncurves"),
+          ("fia_curves", "FIA yield\ncurves"), ("E_state", "Ensemble")]
 # Scores read from the data pack (fig1_scorecard_v2.csv: LANDIS-II cut-pair results folded in for NH, VT, MI, WI, MN)
 import pandas as pd, sys
 DATA = sys.argv[1] if len(sys.argv) > 1 else 'data/fig1_scorecard_v2.csv'
